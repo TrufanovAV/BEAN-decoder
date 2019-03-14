@@ -1,6 +1,6 @@
 # Protocol decoder BEAN for Open-Source signal analysis software http://sigrok.org/
 <p align="center">
-  <img alt="VS Code in action" src="https://cloud.githubusercontent.com/assets/11839736/16642200/6624dde0-43bd-11e6-8595-c81885ba0dc2.png">
+  <img alt="VS Code in action" src="https://github.com/TrufanovAV/BEAN-decoder.git/decoder.png">
 </p>
 
 BEAN is a Toyota's Body Electronics Area Network:
