@@ -15,17 +15,12 @@ BEAN is a Toyota's Body Electronics Area Network:
 * 130-132 RSP (2 bits) (represents the response area)
 * 133-138 EOF (6 bits) (shows the end of the frame)
 
-    PRI
-    |                           DATA (variable                   RSP
- SOF|    ML   DID      MID      | length)      CRC      EOM      |  EOF
-  | |    |    |        |        |              |        |        |  |
-  x_xxxx_xxxx_xxxxxxxx_xxxxxxxx_[8 to 88 bits]_xxxxxxxx_xxxxxxxx_xx_xxxxxx 
 
 
-* For example:
+ For example:
 
-*    PRI+ML	 DST-ID   MES-ID   DATA 1   DATA 2   CRC     EOM 
-*    04	 	 FE		  AB	   A1	    80	     E9	     7E
+    PRI+ML	 DST-ID   MES-ID   DATA 1   DATA 2   CRC     EOM 
+    04	 	 FE		  AB	   A1	    80	     E9	     7E
 
-*  1000001100 111110110 1010101110100001100000100111010010111111   with bit stuff
-*   00000100 11111110 10101011 10100001 10000000 11101001 01111110  remove bit stuff
+  1000001100 111110110 1010101110100001100000100111010010111111   with bit stuff
+   00000100 11111110 10101011 10100001 10000000 11101001 01111110  remove bit stuff
